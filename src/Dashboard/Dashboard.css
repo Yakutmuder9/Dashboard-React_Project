@@ -1,0 +1,90 @@
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000055;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.Dash {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+  background: white;
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+#rightSide {
+  width: 100% !important;
+  height: auto !important;
+  background: linear-gradient(180deg, #0B1B6D -80.28%, rgba(11, 27, 109, 0.96834) -74.94%, rgba(11, 27, 109, 0.0222406) 126.86%, rgba(11, 27, 109, 0) 126.88%);
+background-blend-mode: darken;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  overflow-y: scroll;
+}
+.dhashboardConatainer {
+  width: 100% !important;
+  height: auto !important;
+  padding: 2vh 2vw;
+}
+
+.profileImage {
+  width: 50px;
+  height: 80% !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#topnavBar {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(263.22deg, #220555 15.17%, #1E0945 26.46%, #130A30 57.73%, #0A0B1F 82.58%);
+}
+#naveToggler {
+  width: 100% !important;
+  height: auto;
+  left: -10vw;
+  margin: 0 0 0 10vw;
+  padding: 2vh 5vw;
+  background: linear-gradient(
+    97.77deg,
+    #0b1b6d 4.81%,
+    rgba(11, 27, 109, 0) 128.13%
+  ) !important;
+  box-shadow: 20px 20px 60px #ec1a1a;
+}
+#NavBtnBurger {
+  width: 50px;
+  height: 40px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px !important;
+  position: absolute !important;
+}
+
+#navLogo {
+  font-size: 1.7rem;
+  margin-bottom: 2vh;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+Nav.Link{
+  font-size: 2.8vmin;
+  margin-bottom: 2vh;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
